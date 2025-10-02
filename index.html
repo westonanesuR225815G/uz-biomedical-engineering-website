@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Department of Biomedical Informatics and Biomedical Engineering | University of Zimbabwe</title>
+  <meta name="description" content="Innovating Healthcare through Technology and Education at the University of Zimbabwe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.jpg">
+</head>
+<body>
+  <header class="navbar" id="top">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <img src="logo.jpg" alt="University of Zimbabwe Logo" class="logo"/>
+        <div class="brand-text">
+          <span class="brand-title">University of Zimbabwe</span>
+          <span class="brand-subtitle">Biomedical Informatics & Biomedical Engineering</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Open Menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" role="navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#programmes" class="nav-link">Programmes</a>
+        <a href="#careers" class="nav-link">Careers</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero section">
+      <div class="hero-bg">
+        <img src="assets/hero-lab-scene.svg" alt="Biomedical engineering laboratory background"/>
+      </div>
+      <div class="container hero-content reveal">
+        <div class="hero-badge">Heritage-Based Education </div>
+        <h1 class="hero-title">Innovating Healthcare through Technology and Education</h1>
+        <p class="hero-subtitle">Department of Biomedical Informatics and Biomedical Engineering</p>
+        <div class="hero-cta">
+          <a class="btn btn-gold" href="#programmes">Explore Programmes</a>
+          <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section">
+      <div class="container grid-2">
+        <div class="about-media reveal">
+          <img src="assets/african-students.svg" alt="African students in biomedical engineering at UZ"/>
+        </div>
+        <div class="about-content reveal">
+          <h2 class="section-title">About the Department</h2>
+          <p>
+            Rooted in Zimbabwe's heritage and future-focused vision, the Department of Biomedical Informatics and Biomedical Engineering advances healthcare through education, research, and innovation. Guided by the University of Zimbabwe's 2019–2025 Strategic Plan and Education 5.0, we champion problem-solving, industrialisation, and community impact.
+          </p>
+          <p>
+            Our students learn to design medical technologies, build data-driven health systems, and collaborate across disciplines to improve patient outcomes in Zimbabwe, Africa, and beyond.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Flagship Programmes</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5.0</span>
+              <span class="stat-label">Education Philosophy</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Innovation Potential</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programmes -->
+    <section id="programmes" class="programmes section">
+      <div class="container">
+        <div class="programmes-header reveal">
+          <h2 class="section-title center">Our Programmes</h2>
+          <p class="programmes-subtitle">Cutting-edge education in healthcare technology and innovation</p>
+        </div>
+        
+        <div class="programmes-grid">
+          <!-- Biomedical Informatics Card -->
+          <div class="programme-card reveal" data-programme="informatics">
+            <div class="programme-image">
+              <img src="assets/informatics-simple.svg" alt="Biomedical informatics and health data science" onerror="console.log('Image failed to load:', this.src); this.style.border='2px solid red';"/>
+              <div class="programme-overlay">
+                <div class="programme-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="programme-content">
+              <div class="programme-header">
+                <h3>Biomedical Informatics</h3>
+                <div class="programme-badge">Data Science</div>
+              </div>
+              <p class="programme-description">
+                Integrate computing, data science, and clinical knowledge to revolutionize healthcare delivery through intelligent systems and AI-powered solutions.
+              </p>
+              <div class="programme-features">
+                <div class="feature-item">
+                  <span class="feature-icon">🧠</span>
+                  <span>AI & Machine Learning</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">📊</span>
+                  <span>Health Data Analytics</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">📱</span>
+                  <span>Digital Health Innovation</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🔗</span>
+                  <span>Health Information Systems</span>
+                </div>
+              </div>
+              <button class="programme-toggle" aria-expanded="false">
+                <span>Learn More</span>
+                <span class="toggle-icon">↓</span>
+              </button>
+              <div class="programme-details">
+                <h4>Core Areas</h4>
+                <ul>
+                  <li>Electronic Health Records (EHR) systems</li>
+                  <li>Clinical decision support systems</li>
+                  <li>Health information exchange & interoperability</li>
+                  <li>Telemedicine and mHealth applications</li>
+                  <li>Medical imaging informatics</li>
+                  <li>Population health analytics</li>
+                </ul>
+                <div class="programme-stats">
+                  <div class="stat">
+                    <span class="stat-number">94%</span>
+                    <span class="stat-label">Employment Rate</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Years Duration</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Biomedical Engineering Card -->
+          <div class="programme-card reveal" data-programme="engineering">
+            <div class="programme-image">
+              <img src="assets/medical-devices-africa.svg" alt="Medical devices and biomedical engineering in Africa"/>
+              <div class="programme-overlay">
+                <div class="programme-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="programme-content">
+              <div class="programme-header">
+                <h3>Biomedical Engineering</h3>
+                <div class="programme-badge">Innovation</div>
+              </div>
+              <p class="programme-description">
+                Design and develop cutting-edge medical devices and systems that improve patient care and address healthcare challenges in African contexts.
+              </p>
+              <div class="programme-features">
+                <div class="feature-item">
+                  <span class="feature-icon">⚕️</span>
+                  <span>Medical Device Design</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🔬</span>
+                  <span>Biomechanics & Imaging</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🏥</span>
+                  <span>Clinical Engineering</span>
+                </div>
+                <div class="feature-item">
+                  <span class="feature-icon">🚀</span>
+                  <span>Innovation & Entrepreneurship</span>
+                </div>
+              </div>
+              <button class="programme-toggle" aria-expanded="false">
+                <span>Learn More</span>
+                <span class="toggle-icon">↓</span>
+              </button>
+              <div class="programme-details">
+                <h4>Core Areas</h4>
+                <ul>
+                  <li>Medical device design and development</li>
+                  <li>Biomedical signal processing & imaging</li>
+                  <li>Biomaterials and tissue engineering</li>
+                  <li>Clinical engineering and hospital systems</li>
+                  <li>Rehabilitation engineering</li>
+                  <li>Regulatory affairs and quality assurance</li>
+                </ul>
+                <div class="programme-stats">
+                  <div class="stat">
+                    <span class="stat-number">92%</span>
+                    <span class="stat-label">Employment Rate</span>
+                  </div>
+                  <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Years Duration</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Careers -->
+    <section id="careers" class="careers section">
+      <div class="container">
+        <h2 class="section-title center">Careers & Opportunities</h2>
+        <div class="careers-grid">
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3 6 6 .9-4.5 4.4 1 6.3L12 17l-5.5 2.6 1-6.3L3 8.9 9 8z" fill="currentColor"/></svg>
+            </div>
+            <h3>Biomedical Engineer</h3>
+            <p>Design and develop medical devices and technologies to improve diagnosis, treatment, and patient care.</p>
+          </div>
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 3h18v4H3zM5 9h14v12H5z" fill="currentColor"/></svg>
+            </div>
+            <h3>Clinical Engineer</h3>
+            <p>Manage hospital technology, ensure safety and compliance, and optimise clinical workflows.</p>
+          </div>
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 100 14 7 7 0 000-14zm0 18c-5 0-9 2.5-9 5v1h18v-1c0-2.5-4-5-9-5z" fill="currentColor"/></svg>
+            </div>
+            <h3>Researcher</h3>
+            <p>Advance scientific knowledge in bioinformatics, imaging, biomechanics, and digital health.</p>
+          </div>
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v6H4zM4 12h8v8H4zM14 12h6v8h-6z" fill="currentColor"/></svg>
+            </div>
+            <h3>Application Specialist</h3>
+            <p>Support deployment and training for healthcare software and imaging systems.</p>
+          </div>
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M2 7h20v10H2zM4 5h16v2H4zM6 19h12v2H6z" fill="currentColor"/></svg>
+            </div>
+            <h3>Health Data Analyst</h3>
+            <p>Transform health data into actionable insights for hospitals, NGOs, and startups.</p>
+          </div>
+          <div class="career-card reveal">
+            <div class="career-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2l9 5-9 5-9-5 9-5zm0 12l9-5v8l-9 5-9-5v-8l9 5z" fill="currentColor"/></svg>
+            </div>
+            <h3>Entrepreneur</h3>
+            <p>Build startups that address Africa's healthcare challenges with localised, sustainable solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+      <div class="container grid-2">
+        <div class="contact-form reveal">
+          <h2 class="section-title">Contact Us</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+              <small class="error" id="nameError"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              <small class="error" id="emailError"></small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+              <small class="error" id="messageError"></small>
+            </div>
+            <button type="submit" class="btn btn-green">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-map reveal">
+          <h3>Find Us</h3>
+          <div class="map-wrapper">
+            <iframe title="University of Zimbabwe Map" src="https://www.google.com/maps?q=University%20of%20Zimbabwe&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contact-details">
+            <p><strong>Address:</strong> University of Zimbabwe, Harare, Zimbabwe</p>
+            <p><strong>Email:</strong> info@uz.ac.zw</p>
+            <p><strong>Phone:</strong> +263 (0) 4 303 211</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 University of Zimbabwe – Biomedical Engineering Department</p>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
